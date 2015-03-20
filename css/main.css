@@ -131,14 +131,61 @@ figcaption {
 
 .goat {
   background-color: #222222;
+  padding: 0em 1em 0em 1em;
+}
+
+.title {
+  color: #fff;
+}
+
+.goat-symbol {
+  float: right;
+  width: 50%;
+  padding-bottom: 1em;
+}
+
+.goat-img {
+  float: left;
+  width: 50%;
+  padding-bottom: 1em;
+}
+
+.figcaption {
+  color: #fff;
 }
 
 .rooster {
   background-color: #bc0017;
+  padding: 0em 1em 0em 1em;
+}
+
+.rooster-symbol {
+  float: left;
+  width: 50%;
+  padding-bottom: 1em;
+}
+
+.rooster-img {
+  float: right;
+  width: 50%;
+  padding-bottom: 1em;
 }
 
 .ox {
   background-color: #e4c22a;
+  padding: 0em 1em 0em 1em;
+}
+
+.ox-symbol {
+  float: right;
+  width: 50%;
+  padding-bottom: 1em;
+}
+
+.ox-img {
+  float: left;
+  width: 50%;
+  padding-bottom: 1em;
 }
 
 footer {
