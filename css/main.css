@@ -22,17 +22,17 @@ div {
   margin: 0;
   padding-top: .3em;
   font-size: 3em;
-  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 5;
 }
 
 .chinese-zodiac {
   margin: 0;
-  padding-top: .3em;
+  padding: .3em 0em 1.5em 0em;
   font-size: 1em;
   font-weight: bold;
-  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 6;
 }
@@ -41,11 +41,28 @@ div {
   width: 100px;
   position: absolute;
   top: 15px;
+  left: calc(50% - 50px);
   z-index: 0;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
 }
 
 li {
   background-color: #222222;
+  list-style-type: none;
+  float: left;
+  width: 50%;
+  padding: .5em .5em .5em 0em;
+  border: 1px solid #000;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 1em;
+  margin: 0;
 }
 
 a {
@@ -54,6 +71,22 @@ a {
 
 .banner {
   width: 100%;
+}
+
+.dragon {
+  background-color: #e4c22a;
+}
+
+.goat {
+  background-color: #222222;
+}
+
+.rooster {
+  background-color: #bc0017;
+}
+
+.ox {
+  background-color: #e4c22a;
 }
 
 footer {
