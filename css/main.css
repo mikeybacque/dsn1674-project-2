@@ -4,8 +4,32 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+
+  font-family: 'Noto Sans', sans-serif;
 }
 
-img {
+body {
+  margin: 0;
+}
+
+div {
+  background-color: #e7001d;
+  text-align: center;
+  color: #fff;
+}
+
+li {
+  background-color: #222222;
+}
+
+a {
+  color: #fff;
+}
+
+.banner {
   width: 100%;
+}
+
+footer {
+  background-color: #222222;
 }
