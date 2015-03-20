@@ -101,6 +101,12 @@ p {
   background-color: #e4c22a;
 }
 
+h3 {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
 .goat {
   background-color: #222222;
 }
