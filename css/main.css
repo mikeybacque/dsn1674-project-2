@@ -93,18 +93,40 @@ h2 {
 }
 
 p {
-  margin: 1em 1em 0.5em 0.75em;
+  margin: 1em 1em 1.5em 0.75em;
   line-height: 1.5em;
 }
 
 .dragon {
   background-color: #e4c22a;
+  padding: 0em 1em 0em 1em;
 }
 
 h3 {
   text-align: center;
-  padding-top: 1em;
+  padding: 1em 0em 1em 0em;
   font-size: 1.5em;
+  margin: 0;
+}
+
+.dragon-symbol {
+  float: left;
+  width: 50%;
+  padding-bottom: 1em;
+}
+
+.dragon-img {
+  float: right;
+  width: 50%;
+  padding-bottom: 1em;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  padding: 1.5em;
 }
 
 .goat {
