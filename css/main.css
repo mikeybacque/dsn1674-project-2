@@ -18,6 +18,32 @@ div {
   color: #fff;
 }
 
+.chinese-title {
+  margin: 0;
+  padding-top: .3em;
+  font-size: 3em;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 5;
+}
+
+.chinese-zodiac {
+  margin: 0;
+  padding-top: .3em;
+  font-size: 1em;
+  font-weight: bold;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 6;
+}
+
+.medallion {
+  width: 100px;
+  position: absolute;
+  top: 15px;
+  z-index: 0;
+}
+
 li {
   background-color: #222222;
 }
